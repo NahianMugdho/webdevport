@@ -253,3 +253,34 @@ text-align: left;
     align-items: center;
     text-align: center;
 }
+/* footer styles */
+.foot{
+    display: flex;  
+    padding: 130px 230px;
+    gap: 100px
+}
+.footcol{
+
+    width: 50%;
+    
+}
+footer input[type="text"],footer input[type="email"],footer textarea
+{
+    /* Rectangle 16 */
+        
+        height: 64px;
+        border-radius: 5px;
+/* White Color */
+        background: rgb(255, 255, 255);
+        display: block;
+        color: rgb(117, 117, 117);
+        font-family: Open Sans;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 28px;
+        letter-spacing: 0%;
+        text-align: left;
+        margin-bottom: 24px;
+        margin-top: 10px;
+        text-align: center;
+}
